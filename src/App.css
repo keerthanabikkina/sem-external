@@ -1,0 +1,41 @@
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #2c2929;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.studentTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.studentTable th, .studentTable td {
+    border: 1px solid #1d1616;
+    padding: 12px;
+    text-align: left;
+}
+
+.studentTable th {
+    background-color: #007bff;
+    color: rgb(21, 6, 6);
+    text-transform: uppercase;
+}
+
+/* Optional: Add hover effect */
+.studentTable tbody tr:hover {
+    background-color: #e9f0ff;
+}
